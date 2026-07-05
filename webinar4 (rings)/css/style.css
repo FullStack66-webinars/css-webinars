@@ -1,0 +1,33 @@
+.rings {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.row {
+    margin: 0 0 20px;
+}
+
+.ring-symbol {
+    font-size: 110px;
+    margin: 0 8px;
+}
+
+.blue {
+    color: blue;
+}
+
+.black {
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: #d6ad00;
+}
+
+.green {
+    color: green;
+}
