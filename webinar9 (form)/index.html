@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поиск в Google</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<main class="search-page">
+  <h1>Google Search</h1>
+
+  <p class="description">
+    Введите запрос, и мы передадим его поисковой системе Google.
+  </p>
+
+  <form action="https://www.google.com/search" method="get">
+    <label for="query">Что вы хотите найти?</label>
+
+    <input
+            type="search"
+            id="query"
+            name="q"
+            placeholder="Например: как работает HTML-форма"
+            required
+    >
+
+    <button type="submit">Найти</button>
+  </form>
+</main>
+
+</body>
+</html>
